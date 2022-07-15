@@ -1,0 +1,71 @@
+.header{
+    height:7vw;
+    margin: 0 auto;
+    background-image: url('/assets/banner.jpg') ;
+    
+
+    .logo{
+        position: relative;
+        width: 12vw;
+        left: 6vw;
+        top: -2.6vw;
+    
+    }
+
+    .input-pesquisa{
+        position: relative;
+        top: 2.5vw;
+        left: 9vw;
+        width: 40vw;
+        height: 2vw;
+        border-radius: 0.5vw;
+        font-family: sans-serif;
+
+    }
+
+    .btn-pesquisa{
+        position: relative;
+        top: 2.3vw;
+        left: 9vw;
+        height: 1.8vw;
+    }
+
+}
+:host ::ng-deep .p-menubar{
+    background-color: gray;
+   
+}
+
+:host ::ng-deep .p-menubar .p-menuitem-text {
+    color: white;
+    
+}
+
+:host ::ng-deep .p-menubar .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-text {
+    color: #ffffff;
+}
+
+
+:host ::ng-deep .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:not(.p-disabled):hover {
+    background: #ffffff;
+    
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link, .p-menubar .p-menubar-root-list > .p-menuitem.p-menuitem-active > .p-menuitem-link:not(.p-disabled) {
+    background: gray;
+}
+
+:host ::ng-deep .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text {
+    color: #ffffff;
+}
+
+:host ::ng-deep .p-menubar .p-menuitem.p-menuitem-active > .p-menuitem-link {
+    background: gray;
+}
+
+:host ::ng-deep .p-menubar .p-menuitem {
+    background: gray;
+}
+
+
+
